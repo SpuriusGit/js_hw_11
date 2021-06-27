@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+body{
+    background-color:gainsboro;
+}
+h3{
+    width: 350px;
+    font-size: 28px;
+    display: flex;
+    text-align: center;
+    margin: 20px auto 0;
+}
+.js-input{
+    height: 50px;
+    width: 250px;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 4px;
+    display: flex;
+    margin:30px auto;
+}
+.list-item{
+    display: flex;
+    height: auto;
+    width: 250px;
+    border:1px solid gray;
+    font-size: 20px;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.country-info{
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+}
+.country-flag{
+    height: 200px;
+}

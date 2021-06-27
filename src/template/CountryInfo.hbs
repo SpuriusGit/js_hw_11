@@ -1,0 +1,17 @@
+<div class="country-info">
+  <img src="{{flag}}" alt="{{demonym}}" class="country-flag" />
+  <h2 class="country-name">
+    {{name}}
+    ({{alpha2Code}})
+    <span class="native-name">({{nativeName}})</span>
+  </h2>
+  <span class="area-info">area: <span class="area-count">{{area}}</span>km</span>
+  <ul class="callingCodes">
+    calling code:
+    {{#each callingCodes}}
+      <li class="calling-codes">+{{this}}</li>
+    {{/each}}
+  </ul>
+  <span class="capital-info">capital:
+    <span class="capital-name">{{capital}}</span></span>
+</div>
